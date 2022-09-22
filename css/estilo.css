@@ -177,6 +177,7 @@ a {
 }
 
 .cartas div img:hover {
+    transition: 2s;
     zoom: 1;
     opacity: 1;
     border: 2px solid whitesmoke;
@@ -196,7 +197,6 @@ a {
     align-items: center;
     width: 100%;
     height: 200px;
-
     margin-top: 10px;
 }
 
@@ -238,7 +238,7 @@ a {
     padding: 20px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 900px) {
 
     header {
         display: flex;

@@ -39,7 +39,7 @@ fieldset {
     margin: 20px 50px;
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 900px) {
 
     body {
         background-image: url(../Imagenes/Lo\ siento.jpg);
