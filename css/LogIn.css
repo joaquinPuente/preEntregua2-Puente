@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+body:hover {    
+    transition: 3s;
+    background-image: url(../Imagenes/One\ piece.jpg);  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border: 5px gray solid;
+    margin-top: 25vh;
+    background-color: white;
+}
+
+.container:hover {
+    transition: 3s;
+    background-color: coral;
+}
+
+.botones {
+    display: flex;
+    justify-content: space-around;
+}
+
+button a {
+    text-decoration: none;
+}
+
+
